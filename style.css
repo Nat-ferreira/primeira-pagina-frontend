@@ -21,4 +21,10 @@ section {
     margin-top: 20px;
     border-radius: 8px;
 }
+.caixa {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
