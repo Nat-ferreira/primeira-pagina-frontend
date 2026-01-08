@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Página</title>
+    <title>Meu Primeiro Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Nathalia</h1>
-        <p>Estudante de ADS</p>
+    <header class="caixa">
+        <h1 id="titulo-principal">Nathalia</h1>
+        <p class="subtitulo">Estudante de Análise e Desenvolvimento de Sistemas</p>
     </header>
 
     <main>
         <section id="sobre" class="caixa">
             <h2>Sobre Mim</h2>
-            <p>Sou estudante de ADS e estou aprendendo front-end.</p>
+            <p>
+                Sou estudante de ADS, aprendendo desenvolvimento front-end e back-end,
+                com foco em construir uma base sólida em programação.
+            </p>
         </section>
 
         <section id="habilidades" class="caixa">
             <h2>Habilidades</h2>
-            <ul>
+            <ul class="lista">
                 <li>HTML básico</li>
                 <li>CSS básico</li>
                 <li>JavaScript iniciante</li>
@@ -29,13 +32,11 @@
         </section>
     </main>
 
-    <footer class="caixa">
+    <footer class="caixa rodape">
         <p>© 2026 - Nathalia</p>
     </footer>
 
-</body>
-
-       <button onclick="mostrarMensagem()">Clique aqui</button>
     <script src="script.js"></script>
 </body>
 </html>
+
