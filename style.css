@@ -1,40 +1,4 @@
-/* Estilo geral da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #e7e7e7;
-    margin: 0;
-    padding: 20px;
+    background-color: red !important;
 }
 
-/* Classe reutilizável */
-.caixa {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-/* ID (elemento único) */
-#titulo-principal {
-    color: #333;
-    margin-bottom: 5px;
-}
-
-/* Classe para texto */
-.subtitulo {
-    color: #666;
-    font-size: 14px;
-}
-
-/* Lista */
-.lista {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-/* Rodapé */
-.rodape {
-    text-align: center;
-    font-size: 12px;
-    color: #555;
-}
