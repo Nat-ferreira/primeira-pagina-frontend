@@ -1,40 +1,5 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Corpo da página */
 body {
-    font-family: Arial, sans-serif;
     background-color: #e7e7e7;
-    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
-/* Container principal (Flexbox) */
-.container {
-    display: flex;
-    flex-direction: column;
-    max-width: 900px;
-    margin: 0 auto;
-    gap: 20px;
-}
-
-/* Caixas */
-.caixa {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/* Título principal */
-#titulo-principal {
-    font-size: 32px;
-    color: #222;
-}
-
-/* Subtítulo */
-.subtitulo {
-    font-size: 14px;
-    color:
