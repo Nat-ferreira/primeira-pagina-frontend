@@ -8,6 +8,19 @@ body {
     margin-bottom: 20px;
     border: 2px solid #ddd;
 }
+#titulo-principal {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    font-size: 14px;
+    color: #555;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
 
 }
 
