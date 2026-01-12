@@ -21,6 +21,11 @@ body {
 h2 {
     margin-bottom: 10px;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 }
 
