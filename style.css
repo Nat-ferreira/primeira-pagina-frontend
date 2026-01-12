@@ -1,5 +1,13 @@
 body {
     background-color: #e7e7e7;
     font-family: Arial, sans-serif;
+    .caixa {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+}
+
 }
 
