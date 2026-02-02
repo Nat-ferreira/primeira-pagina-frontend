@@ -1,6 +1,4 @@
-let nome = "Nathalia";
-let curso = "Análise e Desenvolvimento de Sistemas";
+let mensagem = "JavaScript alterou esse texto com sucesso!";
 
-console.log("Nome:", nome);
-console.log("Curso:", curso);
+document.getElementById("mensagem-js").innerText = mensagem;
 
