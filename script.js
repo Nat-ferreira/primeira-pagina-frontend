@@ -1,4 +1,6 @@
-let mensagem = "JavaScript alterou esse texto com sucesso!";
+let botao = document.getElementById("botao-js");
+let mensagem = document.getElementById("mensagem-js");
 
-document.getElementById("mensagem-js").innerText = mensagem;
-
+botao.addEventListener("click", function () {
+    mensagem.innerText = "Você clicou no botão!";
+});
