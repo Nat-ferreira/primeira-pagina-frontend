@@ -1,6 +1,14 @@
 let botao = document.getElementById("botao-js");
 let mensagem = document.getElementById("mensagem-js");
 
+let clicou = false;
+
 botao.addEventListener("click", function () {
-    mensagem.innerText = "Você clicou no botão!";
+    if (clicou === false) {
+        mensagem.innerText = "Primeiro clique!";
+        clicou = true;
+    } else {
+        mensagem.innerText = "Você clicou novamente!";
+        clicou = false;
+    }
 });
